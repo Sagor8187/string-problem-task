@@ -10,3 +10,19 @@ for( let i = 0 ; i < text.length;i++){
     }
 }
 console.log(vowel)
+
+// use include method
+let content = "bangladesh"
+
+let cont = 0;
+
+let vowels = ['a','e','i','o','u']
+
+for (ch of content){
+    if(vowels.includes(ch)){
+        cont++
+    }
+    
+    
+}
+console.log(cont)
